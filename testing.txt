@@ -1,0 +1,2 @@
+Unit test plan for selecting drink from coffee shop.
+When each option on the drinks drop down list is selected, then expect the drink to be added to the order and the quantity to be set to 1.
