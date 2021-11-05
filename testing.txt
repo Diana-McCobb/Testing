@@ -8,3 +8,14 @@ When we run the get method to get the drink object for a drink, but the drink is
 
 System test example
 When we select "coffee" as a type of drink, then expect the range of coffees with the price for each cup size to be displayed on the front end.
+
+User acceptance test example
+As a thirsty caffiene deprived customer
+I want to view the coffee menu
+So that I can select my morning coffee
+
+Given the user has navigated to the home page
+When the "coffee menu" button is selected
+Then only the range of coffees is displayed in a table that has the coffee name, price for small cup, price for medium cup and price for large cup and a selection button.
+
+Further refinement - only coffees are displayed (i.e. no other products), and all coffees are display (i.e. all products categorised as coffee on the database).
