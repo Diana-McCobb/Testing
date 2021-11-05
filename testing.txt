@@ -1,2 +1,10 @@
-Unit test plan for selecting drink from coffee shop.
-When each option on the drinks drop down list is selected, then expect the drink to be added to the order and the quantity to be set to 1.
+System is for ordering drinks from the coffee shop.
+
+Unit test example
+When the "latte" object is input to the "get-drink" function, then expect the price for each size to be returned in an array.
+
+Integration test example
+When we run the get method to get the drink object for a drink, but the drink is not found, then expect the response to be 404 (not found).
+
+System test example
+When we select "coffee" as a type of drink, then expect the range of coffees with the price for each cup size to be displayed on the front end.
